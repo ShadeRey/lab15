@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "152170974247",
+    "project_id": "lab15-3e5b5",
+    "storage_bucket": "lab15-3e5b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152170974247:android:a472800d4fbc29fe725202",
+        "android_client_info": {
+          "package_name": "ru.shaderey.lab15"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152170974247-m31fr6lj1h1a4sluh6efsuhjemeck9qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.shaderey.lab15",
+            "certificate_hash": "c3e417d62b821ca87f32188509c5d6cd8434f171"
+          }
+        },
+        {
+          "client_id": "152170974247-supdgmnm4dmciuk4ud280gd0n5bi0ffd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALInhex9S97FPpx0lFzGxrOV2nnBM_IrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152170974247-supdgmnm4dmciuk4ud280gd0n5bi0ffd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

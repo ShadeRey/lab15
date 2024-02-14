@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/taskListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/taskDescriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:hint="Enter task description"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/taskTitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:hint="Enter task title"
+            android:inputType="text" />
+
+        <Button
+            android:visibility="visible"
+            android:id="@+id/addTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="Add Task" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/editTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="Update Task" />
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
